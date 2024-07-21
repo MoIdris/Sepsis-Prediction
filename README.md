@@ -1,5 +1,5 @@
 # Sepsis-Prediction
-Building Machine Learning APIs With FastAPI
+`Building Machine Learning APIs With FastAPI`
 
 # Dataset Description - Assignment 1
 
