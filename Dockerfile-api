@@ -1,4 +1,4 @@
-FROM python:3.11.9-slim
+FROM python:3.11.7
 
 # Copy requirements file
 COPY requirements_docker_api.txt .
@@ -20,4 +20,4 @@ WORKDIR /
 EXPOSE 9000
 
 # Start application
-CMD ["uvicorn", "src.api.api:app", "--host", "0.0.0.0", "--port", "9000"]
+CMD ["uvicorn", "src/api.api:app", "--host", "0.0.0.0", "--port", "9000"]
