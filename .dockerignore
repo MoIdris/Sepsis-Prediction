@@ -23,5 +23,5 @@ env.bak/
 venv.bak/
 ./data
 .gitignore
-README.md
-LICENSE
+/README.md
+/LICENSE
